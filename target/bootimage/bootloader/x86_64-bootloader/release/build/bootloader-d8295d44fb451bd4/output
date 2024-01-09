@@ -1,0 +1,7 @@
+cargo:rerun-if-changed=/Users/munachianya/Programming/CSC305/barest/csc305-barestOS/Cargo.toml
+cargo:rustc-link-search=native=/Users/munachianya/Programming/CSC305/barest/csc305-barestOS/target/bootimage/bootloader/x86_64-bootloader/release/build/bootloader-d8295d44fb451bd4/out
+cargo:rustc-link-lib=static=kernel_bin-barest
+cargo:rerun-if-env-changed=KERNEL
+cargo:rerun-if-env-changed=KERNEL_MANIFEST
+cargo:rerun-if-changed=/Users/munachianya/Programming/CSC305/barest/csc305-barestOS/target/x86_64-bootimage-barest/debug/barest
+cargo:rerun-if-changed=build.rs
